@@ -19,7 +19,7 @@ set wildmode=list:longest          " Bash-like tab completion
 if exists('+colorcolumn')
   set colorcolumn=100
 else
-  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>100v.\+', -1)
 endif
 
 " Disable arrow keys
