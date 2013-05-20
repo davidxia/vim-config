@@ -64,7 +64,6 @@ Bundle 'tpope/vim-haml'
 Bundle 'framallo/asciidoc.vim'
 Bundle 'beyondwords/vim-twig'
 Bundle 'slim-template/vim-slim'
-Bundle 'davidxia/vim-c'
 Bundle 'jsoriano/vim-dbgp'
 
 filetype plugin indent on
