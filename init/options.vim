@@ -9,6 +9,7 @@ set nocompatible                   " be iMproved
 set notimeout                      " No command timeout
 set number                         " Line numbers
 set scrolloff=3                    " Scroll when the cursor is 3 lines from edge
+set shell=/bin/bash                " Make Vim use bash, incompatible with fish
 set showcmd                        " Show typed command prefixes while waiting for operator
 set showmatch                      " Show matching brackets
 set splitright                     " Add new windows towards the right
